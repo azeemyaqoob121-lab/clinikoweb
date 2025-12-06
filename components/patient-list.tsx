@@ -34,6 +34,7 @@ export default function PatientList({ patients, selectedPatient, onSelectPatient
             <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-teal-500 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
               <User className="w-5 h-5 text-white" />
             </div>
+          
             <div className="min-w-0 flex-1">
               <div className="font-semibold text-slate-900 dark:text-white truncate">
                 {patient.first_name} {patient.last_name}

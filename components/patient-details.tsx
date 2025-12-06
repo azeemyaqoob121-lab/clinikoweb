@@ -173,6 +173,7 @@ export default function PatientDetails({ patient, cases, loadingCases }: Patient
                         </div>
                       )}
                     </div>
+                  
                   </div>
                 )
               })}
