@@ -1,5 +1,4 @@
 import type React from "react"
-// <CHANGE> Updated metadata for Cliniko app
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
@@ -11,7 +10,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Cliniko Patient Manager",
   description: "A web app for viewing patients and their cases from Cliniko",
-  generator: "v0.app",
+  generator: "cliniko-web-app",
   icons: {
     icon: [
       {
